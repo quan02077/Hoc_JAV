@@ -16,8 +16,8 @@ const myPromise = () => {
         }, 2000)
     })
 }
-const test = myPromise();
-console.log(test)
+// const test = myPromise();
+// console.log(test)
 
 console.log("1")
 myPromise().then(data => {
