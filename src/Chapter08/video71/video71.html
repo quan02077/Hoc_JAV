@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #users {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    #users td,
+    #users th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #users tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    #users tr:hover {
+        background-color: #ddd;
+    }
+
+    #users th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+    }
+</style>
+</head>
+
+<body>
+    <h1>To-Do List</h1>
+
+    <table id="input">
+        <tr>
+            <td>
+                <p>Title</p>
+            </td>
+            <td><input type="text" id="title" name="title"></td>
+        </tr>
+        <tr>
+            <td>
+                <p>Author</p>
+            </td>
+            <td><input type="text" id="author" name="author"></td>
+        </tr>
+        <tr>
+            <td>
+                <p>Content</p>
+            </td>
+            <td><input type="text" id="content" name="content"></td>
+        </tr>
+    </table>
+    <button id="save">Save</button>
+    <table id="users">
+        <thead>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Content</th>
+            <th>Action</th>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="video71.js"></script>
+</body>
+
+</html>
